@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -14,12 +16,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 body {
   margin: 0;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 .container__V {
-  max-width: 940px;
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
+  padding: 0 255px;
 }
 /* ------------------------------------------- */
 /* Start header */
@@ -89,6 +93,7 @@ body {
 .navbar {
   margin: 0 auto;
   max-width: 1440px;
+  border-bottom: 1px solid #E6E6E6;;
 }
 .navbar__flex {
   display: flex;
@@ -138,3 +143,30 @@ body {
 }
 /* End section - navbar */
 /* ----------------------------------------------- */
+/* Start section - about */
+.about {
+}
+.container__V {
+}
+.about__h2 {
+  width: 700;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 2.30625px;
+  color: #48555B;
+  margin-top: 57px;
+}
+.about__left {
+}
+.about__h3 {
+}
+.about__p {
+}
+.text__p {
+}
+.about__right {
+}
+.about__item {
+}
