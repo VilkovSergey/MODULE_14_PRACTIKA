@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
-
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -72,6 +76,11 @@ body {
   text-align: center;
   letter-spacing: 3.7px;
   padding-top: 20px;
+  color: #FFFFFF;
+}
+.header__a {
+  color: #FFFFFF;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .header {
