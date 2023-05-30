@@ -323,6 +323,9 @@ body {
 .services__btn:hover {
   background-color: #00A4E5;
 }
+.modal__h4 {
+  padding-bottom: 20px;
+}
 .services__grid_box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -369,6 +372,12 @@ body {
   }
   .services__grid_box {
     padding-bottom: 0;
+  }
+  .modal__h4 {
+    max-width: 100px;
+  }
+  .modal__p {
+    max-width: 260px;
   }
 }
 @media screen and (max-width: 479px) {
