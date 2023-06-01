@@ -238,7 +238,6 @@ body {
 .about__item:last-child {
   margin-right: 0;
 }
-
 @media only screen and (max-width: 992px) {
   .container__V {
     padding-right: 10px;
@@ -397,3 +396,87 @@ body {
 /* End section - services */
 /* ----------------------------------------- */
 /* Start section - get-in-touch */
+.get-in-touch {
+  max-width: 1440px;
+  min-height: 449px;
+  background-image: url(../img/get-in-touch.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.get-in-touch__box {
+  max-width: 350px;
+  text-align: center;
+  margin: 0 auto 231px;
+  padding-top: 120px;
+}
+.get-in-touch__h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #48555B;
+  margin-bottom: 35px;
+}
+.get-in-touch__btn_2 {
+  min-width: 150px;
+  height: 40px;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  border: none;
+  padding: 11px 29px;
+  background-color: #00A4E5;
+}
+.get-in-touch__btn_2:hover {
+  background-color: #00A4E5;
+}
+/* End section - get-in-touch */
+/* -------------------------------------------- */
+/* Start section - newsletter*/
+.newsletter {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: #171819;
+}
+.form {
+  text-align: center;
+  /* margin-right: 100px; */
+}
+.newsletter__label {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 70px;
+}
+.newsletter__email {
+  position: relative;
+  padding: 11px 98px 11px 16px;
+  min-height: 40px;
+  border: none;
+}
+.newsletter__email[value="test@youremail.com"] {
+  color: #48555B;
+  font-size: 14px;
+}
+.newsletter__btn {
+  position: absolute;
+  font-size: 14px;
+  min-width: 150px;
+  height: 40px;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  border: none;
+  padding: 11px 29px;
+  background-color: #00A4E5;
+  transition: .3s;
+  cursor: pointer;
+} 
+
+
+
