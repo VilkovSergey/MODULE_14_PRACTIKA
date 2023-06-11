@@ -487,4 +487,17 @@ body {
 .newsletter__btn:hover {
   background-color: red;
 }
-
+@media only screen and (max-width: 992px) {
+  .newsletter__flex {
+    flex-wrap: wrap;
+    margin-left: 0;
+    padding-left: 10px;
+    max-width: 300px;
+  }
+  .newsletter__label {
+    padding-right: 0;
+  }
+}
+/* End section - newsletter */
+/* -------------------------------------------- */
+/* Start footer */
